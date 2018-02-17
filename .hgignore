@@ -1,0 +1,18 @@
+syntax: glob
+*exe
+*.ilk
+*.pdb
+*.exp
+*/Debug/*
+*.opensdf
+*.sdf
+*.suo
+*/Release/*
+filesShared/*
+filesReceived/*
+*.dll
+*.lib
+*.nvuser
+*.nvuser.swp
+*.filters
+*.user

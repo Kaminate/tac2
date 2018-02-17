@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Nathan%27s Stuff\tac2cool\src\TacGraphics\TacAcceleration.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacClearDepthOp.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacClearOp.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacColorMaskOp.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacDepthEnableOp.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacDepthFuncOp.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacDepthMaskOp.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacBindBuffer.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacViewportOperation.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacPasses\TacGenerateShadowPass.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacRenderer.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacRendererState.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacBindFramebuffer.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacBindShader.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacDrawOperation.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacColors.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacDebugDraw.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacException.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacOctree.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacOctreeVisualizer.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacPatternObserver.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacRaycast.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacResource.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacResourceManager.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacShaderDebugDraw.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacShaderNonlinearDepth.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacShaderResource.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacShaderView.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacShaderViewNormals.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacShoddyUnitTest.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacSystemInput.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacWindowsError.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacYeller.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacFramebufferStage.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacBindAttribute.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacBindCameraUniform.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacBindModelMatrix.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacBindUniform.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacPasses\TacNormalPass.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacRenderOperation.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacShaderData.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacShaderInput.cpp" />
+    <ClCompile Include="..\..\src\TacGraphics\TacShaderProgramPass.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacShaderAssBackwards.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacShaderAsteroids.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsClient.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsClientConnect.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsClientError.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsClientGameState.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsClientRunning.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsCommon.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsServer.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsServerConnect.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsServerError.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsServerGameState.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsServerRunning.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacBoundingSphere.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacGuicon.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacHSV.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacMessage.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacMessageUtil.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacNetwork.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacShaderFullscreenTexture.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacShaderPixels.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacShaderShadow.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacShaderVoxelFragments.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacSystemApplication.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacCamera.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacComponent.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacComponentCamera.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacComponentCreator.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacComponentLight.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacComponentModel.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacComponentPhysics.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacComponentTransform.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacCore.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacEntity.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacFileReader.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacFramebuffer.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacGeometry.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacGeometryData.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacGLFW.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacGraphicsErrors.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacSerializer.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacShader.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacShaderPos.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacSystemLevel.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacMathUtil.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacMatrix3.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacMatrix4.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacRunningAverage.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacSystem.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacSystemGraphics.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacSystemPhysics.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacSystemTransform.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacTexture.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacTimer.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacTweak.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacVector2.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacVector3.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacVector4.cpp" />
+    <ClCompile Include="..\..\src\Library\source\TacVeryUtil.cpp" />
+    <ClInclude Include="..\..\..\..\Nathan%27s Stuff\tac2cool\src\TacGraphics\TacAcceleration.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacClearDepthOp.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacClearOp.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacColorMaskOp.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacDepthEnableOp.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacDepthFuncOp.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacDepthMaskOp.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacBindBuffer.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacViewportOperation.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacPasses\TacGenerateShadowPass.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacRenderer.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacRendererState.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacBindFramebuffer.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacBindShader.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacDrawOperation.h" />
+    <ClInclude Include="..\..\src\Library\include\TacColors.h" />
+    <ClInclude Include="..\..\src\Library\include\TacDebugDraw.h" />
+    <ClInclude Include="..\..\src\Library\include\TacException.h" />
+    <ClInclude Include="..\..\src\Library\include\TacOctree.h" />
+    <ClInclude Include="..\..\src\Library\include\TacOctreeVisualizer.h" />
+    <ClInclude Include="..\..\src\Library\include\TacPatternObserver.h" />
+    <ClInclude Include="..\..\src\Library\include\TacRaycast.h" />
+    <ClInclude Include="..\..\src\Library\include\TacResource.h" />
+    <ClInclude Include="..\..\src\Library\include\TacResourceManager.h" />
+    <ClInclude Include="..\..\src\Library\include\TacShaderDebugDraw.h" />
+    <ClInclude Include="..\..\src\Library\include\TacShaderNonlinearDepth.h" />
+    <ClInclude Include="..\..\src\Library\include\TacShaderResource.h" />
+    <ClInclude Include="..\..\src\Library\include\TacShaderView.h" />
+    <ClInclude Include="..\..\src\Library\include\TacShaderViewNormals.h" />
+    <ClInclude Include="..\..\src\Library\include\TacShoddyUnitTest.h" />
+    <ClInclude Include="..\..\src\Library\include\TacSystemInput.h" />
+    <ClInclude Include="..\..\src\Library\include\TacWindowsError.h" />
+    <ClInclude Include="..\..\src\Library\include\TacYeller.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacFramebufferStage.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacBindAttribute.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacBindCameraUniform.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacBindModelMatrix.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacBindUniform.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacPasses\TacNormalPass.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacRenderOperation.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacShaderData.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacShaderInput.h" />
+    <ClInclude Include="..\..\src\TacGraphics\TacShaderProgramPass.h" />
+    <ClInclude Include="..\..\src\Library\include\TacShaderAssBackwards.h" />
+    <ClInclude Include="..\..\src\Library\include\TacShaderAsteroids.h" />
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsClient.h" />
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsClientConnect.h" />
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsClientError.h" />
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsClientGameState.h" />
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsClientRunning.h" />
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsCommon.h" />
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsServer.h" />
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsServerConnect.h" />
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsServerError.h" />
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsServerGameState.h" />
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsServerRunning.h" />
+    <ClInclude Include="..\..\src\Library\include\TacCallback.h" />
+    <ClInclude Include="..\..\src\Library\include\TacSingleton.h" />
+    <ClInclude Include="..\..\src\Library\include\TacStateMachine.h" />
+    <ClInclude Include="..\..\src\Library\include\TacBoundingSphere.h" />
+    <ClInclude Include="..\..\src\Library\include\TacGuicon.h" />
+    <ClInclude Include="..\..\src\Library\include\TacHSV.h" />
+    <ClInclude Include="..\..\src\Library\include\TacMessage.h" />
+    <ClInclude Include="..\..\src\Library\include\TacMessageUtil.h" />
+    <ClInclude Include="..\..\src\Library\include\TacNetwork.h" />
+    <ClInclude Include="..\..\src\Library\include\TacShaderFullscreenTexture.h" />
+    <ClInclude Include="..\..\src\Library\include\TacShaderPixels.h" />
+    <ClInclude Include="..\..\src\Library\include\TacShaderShadow.h" />
+    <ClInclude Include="..\..\src\Library\include\TacShaderVoxelFragments.h" />
+    <ClInclude Include="..\..\src\Library\include\TacSystemApplication.h" />
+    <ClInclude Include="..\..\src\Library\include\TacCamera.h" />
+    <ClInclude Include="..\..\src\Library\include\TacComponent.h" />
+    <ClInclude Include="..\..\src\Library\include\TacComponentCamera.h" />
+    <ClInclude Include="..\..\src\Library\include\TacComponentCreator.h" />
+    <ClInclude Include="..\..\src\Library\include\TacComponentLight.h" />
+    <ClInclude Include="..\..\src\Library\include\TacComponentModel.h" />
+    <ClInclude Include="..\..\src\Library\include\TacComponentPhysics.h" />
+    <ClInclude Include="..\..\src\Library\include\TacComponentTransform.h" />
+    <ClInclude Include="..\..\src\Library\include\TacCore.h" />
+    <ClInclude Include="..\..\src\Library\include\TacEntity.h" />
+    <ClInclude Include="..\..\src\Library\include\TacErrorIf.h" />
+    <ClInclude Include="..\..\src\Library\include\TacFileReader.h" />
+    <ClInclude Include="..\..\src\Library\include\TacFramebuffer.h" />
+    <ClInclude Include="..\..\src\Library\include\TacGeometry.h" />
+    <ClInclude Include="..\..\src\Library\include\TacGeometryData.h" />
+    <ClInclude Include="..\..\src\Library\include\TacGLFW.h" />
+    <ClInclude Include="..\..\src\Library\include\TacGLFWIncludes.h" />
+    <ClInclude Include="..\..\src\Library\include\TacGLIncludes.h" />
+    <ClInclude Include="..\..\src\Library\include\TacGraphicsErrors.h" />
+    <ClInclude Include="..\..\src\Library\include\TacSerializer.h" />
+    <ClInclude Include="..\..\src\Library\include\TacShader.h" />
+    <ClInclude Include="..\..\src\Library\include\TacShaderPos.h" />
+    <ClInclude Include="..\..\src\Library\include\TacSystemLevel.h" />
+    <ClInclude Include="..\..\src\Library\include\TacMacros.h" />
+    <ClInclude Include="..\..\src\Library\include\TacMathUtil.h" />
+    <ClInclude Include="..\..\src\Library\include\TacMatrix3.h" />
+    <ClInclude Include="..\..\src\Library\include\TacMatrix4.h" />
+    <ClInclude Include="..\..\src\Library\include\TacRunningAverage.h" />
+    <ClInclude Include="..\..\src\Library\include\TacSharedPtr.h" />
+    <ClInclude Include="..\..\src\Library\include\TacSystem.h" />
+    <ClInclude Include="..\..\src\Library\include\TacSystemGraphics.h" />
+    <ClInclude Include="..\..\src\Library\include\TacSystemPhysics.h" />
+    <ClInclude Include="..\..\src\Library\include\TacSystemTransform.h" />
+    <ClInclude Include="..\..\src\Library\include\TacTexture.h" />
+    <ClInclude Include="..\..\src\Library\include\TacTimer.h" />
+    <ClInclude Include="..\..\src\Library\include\TacTweak.h" />
+    <ClInclude Include="..\..\src\Library\include\TacVector2.h" />
+    <ClInclude Include="..\..\src\Library\include\TacVector3.h" />
+    <ClInclude Include="..\..\src\Library\include\TacVector4.h" />
+    <ClInclude Include="..\..\src\Library\include\TacVeryUtil.h" />
+    <ClInclude Include="..\..\src\Library\include\TacWindowsTesting.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{59810B52-B9DE-47C8-AC85-8EAC524FDF68}</ProjectGuid>
+    <RootNamespace>Library</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetExt>.dll</TargetExt>
+    <IncludePath>../../src;../../src/Library/include;../../include;$(ProjectDir)../Tacchic/include;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)../</OutDir>
+    <LibraryPath>../../lib;$(LibraryPath)</LibraryPath>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>../../src;../../src/Library/include;../../include;$(ProjectDir)../Tacchic/include;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)../</OutDir>
+    <LibraryPath>../../lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>TacDLL_Export;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SOIL.lib;AntTweakBar.lib;glew32d.lib;opengl32.lib;glfw3debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <Profile>true</Profile>
+      <OptimizeReferences>false</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>TacDLL_Export;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SOIL.lib;AntTweakBar.lib;glew32.lib;opengl32.lib;glfw3release.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

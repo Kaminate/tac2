@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Nathan%27s Stuff\tac2cool\project\Tacchic\src\TacchicModel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Nathan%27s Stuff\tac2cool\project\Tacchic\include\Tacchic\Tacchic.h" />
+  </ItemGroup>
+</Project>

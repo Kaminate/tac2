@@ -1,0 +1,1 @@
+Assert( myVertexFormatID != VERTEX_FORMAT_NONE ) failed in file tacrendererdx11.cpp on line 2871 in function RendererDX11::SetVertexFormat()

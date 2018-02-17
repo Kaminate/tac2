@@ -1,0 +1,34 @@
+game TestGame
+  numEntities 3
+  entity entity0
+    numComponents 2
+    componentType 0
+      position 0 0 -3
+      rotation 0 0 0
+      scale 20 20 1
+    componentType 1
+      meshFilepath .\resources\cube.tacmesh
+      color 1 1 1 1
+  entity entity1
+    numComponents 2
+    componentType 0
+      position 0 0 10
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 4
+      direction 0 0 -1
+      color 1 1 1 1
+  entity entity2
+    numComponents 2
+    componentType 0
+      position 0 -15 15
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 2
+      aspect 1.33333
+      near 0.1
+      far 1000
+      fovYradians 1.39626
+      position 0 -15 15
+      viewDir -0.0254536 0.727816 -0.691255
+      worldSpaceUp 0 0 1

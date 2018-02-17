@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{8589b0eb-56f4-4f83-9f7f-8e2a029981bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{7bb1b0b7-6d2a-4a76-b69b-71797db47955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\GLFW">
+      <UniqueIdentifier>{958f801a-4b5c-44f2-8661-631308d05faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{c6e7c6ea-ccc9-4548-93f3-ee82058adbc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\System">
+      <UniqueIdentifier>{4e658349-dfe5-4a89-bb19-d2cbf20c001b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Camera">
+      <UniqueIdentifier>{68d082ad-9bad-4540-b896-7e362011e325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{eddb0345-d29a-4dd5-b88d-d0fbf04e5804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level">
+      <UniqueIdentifier>{7eb4fa0c-4f2a-42e5-b16b-1116b57eae5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level\System">
+      <UniqueIdentifier>{67187d2d-123f-4d39-a32f-fc0eb253edad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transform">
+      <UniqueIdentifier>{d96d9fa9-731b-4e5e-b30a-b4c36e2d5fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Component">
+      <UniqueIdentifier>{f086d1f2-bebb-4c6e-bb6f-9dff7ec7b150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Geometry">
+      <UniqueIdentifier>{62683091-1c0f-44f0-82de-b1571366fe60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Errors">
+      <UniqueIdentifier>{fa6bdaa5-3579-4c5b-b130-b5f7c157a498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shader">
+      <UniqueIdentifier>{4ea1aaa6-b104-416f-a9e7-77f822e326f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\FileReader">
+      <UniqueIdentifier>{b727a057-b2e6-4407-827f-a952e9c8b9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\RunningAverage">
+      <UniqueIdentifier>{a91c6cc2-6a50-40fa-8480-5c4fa81fd319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Serializer">
+      <UniqueIdentifier>{02b635a4-1ea6-43c8-a255-c4b7c3c183af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Timer">
+      <UniqueIdentifier>{ee964534-4236-49ac-abd2-4732c17579fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shader\Pos">
+      <UniqueIdentifier>{b2311e31-2adc-43ed-951e-06b212f3b90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Tweak">
+      <UniqueIdentifier>{2eb27477-a2ab-4f31-8489-f00edc6ef779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{885a11c9-1309-4a4d-8158-2fdcd05b358a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Texture">
+      <UniqueIdentifier>{8492484b-55b0-4bb0-b9e6-755f4c909520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Framebuffer">
+      <UniqueIdentifier>{26b899d6-011f-47d4-a71a-aca196c32f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shader\Shadow">
+      <UniqueIdentifier>{7e8e7abb-1abe-4483-aa58-5ff17e46fd67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\HSV">
+      <UniqueIdentifier>{cc4a8a33-1595-4a56-af2b-9c8dbb5ada00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\BoundingSphere">
+      <UniqueIdentifier>{049e2ef1-5f99-4427-9001-8a1a42a83ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shader\FullscreenTexture">
+      <UniqueIdentifier>{1f5c4f34-8466-4f4b-9e7f-9cc8f259e85f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shader\VoxelFragments">
+      <UniqueIdentifier>{8553092e-dc1c-44e2-a31c-57c1bb23ff30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shader\Pixels">
+      <UniqueIdentifier>{82fde532-1320-4b84-a885-3a13c465acbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Guicon">
+      <UniqueIdentifier>{bdb95efe-5acb-4065-bd36-0972014f50c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Very">
+      <UniqueIdentifier>{25faf06f-95e7-4314-88dd-72f1021b8fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Networking">
+      <UniqueIdentifier>{5ce6efce-83b0-4bde-a942-e2584a812542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{39c462a2-0911-457c-a8ce-9b896c4c8829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CS260">
+      <UniqueIdentifier>{af156b81-4a13-4d76-aa51-e2dee3eee60f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CS260\Asteroids">
+      <UniqueIdentifier>{8ef88931-cc98-4d76-aba6-e6bd0fd66b78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CS260\Asteroids\Client">
+      <UniqueIdentifier>{8af24b09-11c6-4acd-920b-b625c07a73c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CS260\Asteroids\Server">
+      <UniqueIdentifier>{8a21e896-bfb5-459e-be04-c76752e91c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CS260\Asteroids\Server\States">
+      <UniqueIdentifier>{0fab7624-1866-413e-8bdc-637017bfdc2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CS260\Asteroids\Client\States">
+      <UniqueIdentifier>{4d5a4f8a-4049-4171-9dcb-5abda2f904cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CS260\Asteroids\Shader">
+      <UniqueIdentifier>{15bc6232-5559-43c5-8101-1f763f13ccfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Managment">
+      <UniqueIdentifier>{70ca7665-db8a-42f1-82c6-07de2bbb0fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\DesignPatterns">
+      <UniqueIdentifier>{01f8a103-95c5-42d3-9431-c593fb5db443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Managment\Shader">
+      <UniqueIdentifier>{e7ab95c3-be67-49a4-9cb8-907d49aae93b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shader\NonlinearDepth">
+      <UniqueIdentifier>{1319ebcd-8abd-4c59-8ab1-6c5c53cf8b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{aa9d220a-2338-4300-b3cb-ca6ddbd4f728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\UnitTest">
+      <UniqueIdentifier>{2e374d1f-faf9-449e-a6d3-f3a0b1bce176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\DebugDraw">
+      <UniqueIdentifier>{378cebd3-e787-4090-b0cc-245b4ced1768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Colors">
+      <UniqueIdentifier>{79bc56fc-798c-4ac7-a3b6-df016eb1fd7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Windows">
+      <UniqueIdentifier>{3b278868-d7e2-4224-9b29-9862e2ae6fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Octree">
+      <UniqueIdentifier>{623f0312-7149-4c83-99b6-bd1c63ad733b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Yeller">
+      <UniqueIdentifier>{c591bb29-7177-4f93-90fc-baddc21c02d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Shader\Normals">
+      <UniqueIdentifier>{690dac38-0f84-4cf2-bf7f-a59f9676d123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Rendering%3f">
+      <UniqueIdentifier>{36b6db39-a3c1-4382-a84a-3cce980e7266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Rendering%3f\Passes">
+      <UniqueIdentifier>{69263b55-0f2c-4b7d-b242-76c0d7f76ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Rendering%3f\Operations">
+      <UniqueIdentifier>{ad5ba8b1-86cd-4c9d-b0b0-f5a6cf391528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Operations">
+      <UniqueIdentifier>{6afcd4f6-59de-4e4d-9e7c-a6d281ad6e86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Library\source\TacCore.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacSystem.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacGLFW.cpp">
+      <Filter>Util\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacSystemGraphics.cpp">
+      <Filter>Graphics\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacCamera.cpp">
+      <Filter>Graphics\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacMatrix3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacMatrix4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacVector2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacVector3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacVector4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacMathUtil.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacSystemLevel.cpp">
+      <Filter>Level\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacEntity.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacComponent.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacComponentTransform.cpp">
+      <Filter>Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacComponentCreator.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacSystemTransform.cpp">
+      <Filter>Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacComponentModel.cpp">
+      <Filter>Graphics\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacComponentCamera.cpp">
+      <Filter>Graphics\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacGeometry.cpp">
+      <Filter>Graphics\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacGraphicsErrors.cpp">
+      <Filter>Graphics\Errors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacGeometryData.cpp">
+      <Filter>Graphics\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacShader.cpp">
+      <Filter>Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacFileReader.cpp">
+      <Filter>Util\FileReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacRunningAverage.cpp">
+      <Filter>Util\RunningAverage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacSerializer.cpp">
+      <Filter>Util\Serializer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacTimer.cpp">
+      <Filter>Util\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacShaderPos.cpp">
+      <Filter>Graphics\Shader\Pos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacTweak.cpp">
+      <Filter>Util\Tweak</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacComponentPhysics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacSystemPhysics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacComponentLight.cpp">
+      <Filter>Graphics\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacFramebuffer.cpp">
+      <Filter>Graphics\Framebuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacTexture.cpp">
+      <Filter>Graphics\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacVeryUtil.cpp">
+      <Filter>Util\Very</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacShaderFullscreenTexture.cpp">
+      <Filter>Graphics\Shader\FullscreenTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacShaderPixels.cpp">
+      <Filter>Graphics\Shader\Pixels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacShaderShadow.cpp">
+      <Filter>Graphics\Shader\Shadow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacShaderVoxelFragments.cpp">
+      <Filter>Graphics\Shader\VoxelFragments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacBoundingSphere.cpp">
+      <Filter>Graphics\BoundingSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacGuicon.cpp">
+      <Filter>Util\Guicon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacHSV.cpp">
+      <Filter>Util\HSV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacMessage.cpp">
+      <Filter>Util\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacMessageUtil.cpp">
+      <Filter>Util\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacNetwork.cpp">
+      <Filter>Util\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacSystemApplication.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsClient.cpp">
+      <Filter>CS260\Asteroids\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsServer.cpp">
+      <Filter>CS260\Asteroids\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsCommon.cpp">
+      <Filter>CS260\Asteroids</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsServerConnect.cpp">
+      <Filter>CS260\Asteroids\Server\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsServerError.cpp">
+      <Filter>CS260\Asteroids\Server\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsServerGameState.cpp">
+      <Filter>CS260\Asteroids\Server\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsServerRunning.cpp">
+      <Filter>CS260\Asteroids\Server\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsClientConnect.cpp">
+      <Filter>CS260\Asteroids\Client\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsClientError.cpp">
+      <Filter>CS260\Asteroids\Client\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsClientGameState.cpp">
+      <Filter>CS260\Asteroids\Client\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacCS260AsteroidsClientRunning.cpp">
+      <Filter>CS260\Asteroids\Client\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacShaderAsteroids.cpp">
+      <Filter>CS260\Asteroids\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacException.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacResource.cpp">
+      <Filter>Resource Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacResourceManager.cpp">
+      <Filter>Resource Managment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacPatternObserver.cpp">
+      <Filter>Util\DesignPatterns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacShaderResource.cpp">
+      <Filter>Resource Managment\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacShaderView.cpp">
+      <Filter>Resource Managment\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacShaderNonlinearDepth.cpp">
+      <Filter>Graphics\Shader\NonlinearDepth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacSystemInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacRaycast.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacShoddyUnitTest.cpp">
+      <Filter>Util\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacDebugDraw.cpp">
+      <Filter>Graphics\DebugDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacShaderDebugDraw.cpp">
+      <Filter>Graphics\DebugDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacShaderAssBackwards.cpp">
+      <Filter>CS260\Asteroids\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacColors.cpp">
+      <Filter>Util\Colors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacWindowsError.cpp">
+      <Filter>Util\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacOctree.cpp">
+      <Filter>Util\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacOctreeVisualizer.cpp">
+      <Filter>Util\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacYeller.cpp">
+      <Filter>Util\Yeller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Library\source\TacShaderViewNormals.cpp">
+      <Filter>Graphics\Shader\Normals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacFramebufferStage.cpp">
+      <Filter>Graphics\Rendering%3f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacRenderOperation.cpp">
+      <Filter>Graphics\Rendering%3f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacShaderProgramPass.cpp">
+      <Filter>Graphics\Rendering%3f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacPasses\TacNormalPass.cpp">
+      <Filter>Graphics\Rendering%3f\Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacShaderData.cpp">
+      <Filter>Graphics\Rendering%3f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacShaderInput.cpp">
+      <Filter>Graphics\Rendering%3f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacBindAttribute.cpp">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacBindUniform.cpp">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacBindCameraUniform.cpp">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacBindModelMatrix.cpp">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacBindFramebuffer.cpp">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacBindShader.cpp">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacDrawOperation.cpp">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacPasses\TacGenerateShadowPass.cpp">
+      <Filter>Graphics\Rendering%3f\Passes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacViewportOperation.cpp">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacBindBuffer.cpp">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacRenderer.cpp">
+      <Filter>Graphics\Rendering%3f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacRendererState.cpp">
+      <Filter>Graphics\Rendering%3f</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Nathan%27s Stuff\tac2cool\src\TacGraphics\TacAcceleration.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacClearDepthOp.cpp">
+      <Filter>Graphics\Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacClearOp.cpp">
+      <Filter>Graphics\Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacColorMaskOp.cpp">
+      <Filter>Graphics\Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacDepthEnableOp.cpp">
+      <Filter>Graphics\Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacDepthFuncOp.cpp">
+      <Filter>Graphics\Operations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\TacGraphics\TacOperations\TacDepthMaskOp.cpp">
+      <Filter>Graphics\Operations</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Library\include\TacCore.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacSystem.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacErrorIf.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacMacros.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacGLFW.h">
+      <Filter>Util\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacGLFWIncludes.h">
+      <Filter>Util\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacSystemGraphics.h">
+      <Filter>Graphics\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacSharedPtr.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacCamera.h">
+      <Filter>Graphics\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacMatrix3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacMatrix4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacVector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacVector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacVector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacMathUtil.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacSystemLevel.h">
+      <Filter>Level\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacEntity.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacComponent.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacComponentTransform.h">
+      <Filter>Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacComponentCreator.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacSystemTransform.h">
+      <Filter>Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacComponentModel.h">
+      <Filter>Graphics\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacComponentCamera.h">
+      <Filter>Graphics\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacGeometry.h">
+      <Filter>Graphics\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacGraphicsErrors.h">
+      <Filter>Graphics\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacGeometryData.h">
+      <Filter>Graphics\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacGLIncludes.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacShader.h">
+      <Filter>Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacFileReader.h">
+      <Filter>Util\FileReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacRunningAverage.h">
+      <Filter>Util\RunningAverage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacSerializer.h">
+      <Filter>Util\Serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacTimer.h">
+      <Filter>Util\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacShaderPos.h">
+      <Filter>Graphics\Shader\Pos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacTweak.h">
+      <Filter>Util\Tweak</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacComponentPhysics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacSystemPhysics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacComponentLight.h">
+      <Filter>Graphics\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacFramebuffer.h">
+      <Filter>Graphics\Framebuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacTexture.h">
+      <Filter>Graphics\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacVeryUtil.h">
+      <Filter>Util\Very</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacShaderFullscreenTexture.h">
+      <Filter>Graphics\Shader\FullscreenTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacShaderPixels.h">
+      <Filter>Graphics\Shader\Pixels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacShaderShadow.h">
+      <Filter>Graphics\Shader\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacShaderVoxelFragments.h">
+      <Filter>Graphics\Shader\VoxelFragments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacBoundingSphere.h">
+      <Filter>Graphics\BoundingSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacGuicon.h">
+      <Filter>Util\Guicon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacHSV.h">
+      <Filter>Util\HSV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacMessage.h">
+      <Filter>Util\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacMessageUtil.h">
+      <Filter>Util\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacNetwork.h">
+      <Filter>Util\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacSystemApplication.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacCallback.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacSingleton.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacStateMachine.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsClient.h">
+      <Filter>CS260\Asteroids\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsServer.h">
+      <Filter>CS260\Asteroids\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsCommon.h">
+      <Filter>CS260\Asteroids</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsServerConnect.h">
+      <Filter>CS260\Asteroids\Server\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsServerError.h">
+      <Filter>CS260\Asteroids\Server\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsServerGameState.h">
+      <Filter>CS260\Asteroids\Server\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsServerRunning.h">
+      <Filter>CS260\Asteroids\Server\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsClientRunning.h">
+      <Filter>CS260\Asteroids\Client\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsClientConnect.h">
+      <Filter>CS260\Asteroids\Client\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsClientError.h">
+      <Filter>CS260\Asteroids\Client\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacCS260AsteroidsClientGameState.h">
+      <Filter>CS260\Asteroids\Client\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacShaderAsteroids.h">
+      <Filter>CS260\Asteroids\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacException.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacResource.h">
+      <Filter>Resource Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacResourceManager.h">
+      <Filter>Resource Managment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacPatternObserver.h">
+      <Filter>Util\DesignPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacShaderResource.h">
+      <Filter>Resource Managment\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacShaderView.h">
+      <Filter>Resource Managment\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacShaderNonlinearDepth.h">
+      <Filter>Graphics\Shader\NonlinearDepth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacSystemInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacRaycast.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacShoddyUnitTest.h">
+      <Filter>Util\UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacDebugDraw.h">
+      <Filter>Graphics\DebugDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacShaderDebugDraw.h">
+      <Filter>Graphics\DebugDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacShaderAssBackwards.h">
+      <Filter>CS260\Asteroids\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacColors.h">
+      <Filter>Util\Colors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacWindowsError.h">
+      <Filter>Util\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacWindowsTesting.h">
+      <Filter>Util\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacOctree.h">
+      <Filter>Util\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacOctreeVisualizer.h">
+      <Filter>Util\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacYeller.h">
+      <Filter>Util\Yeller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Library\include\TacShaderViewNormals.h">
+      <Filter>Graphics\Shader\Normals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacFramebufferStage.h">
+      <Filter>Graphics\Rendering%3f</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacRenderOperation.h">
+      <Filter>Graphics\Rendering%3f</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacShaderProgramPass.h">
+      <Filter>Graphics\Rendering%3f</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacPasses\TacNormalPass.h">
+      <Filter>Graphics\Rendering%3f\Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacShaderData.h">
+      <Filter>Graphics\Rendering%3f</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacShaderInput.h">
+      <Filter>Graphics\Rendering%3f</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacBindAttribute.h">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacBindUniform.h">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacBindCameraUniform.h">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacBindModelMatrix.h">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacDrawOperation.h">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacBindFramebuffer.h">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacBindShader.h">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacPasses\TacGenerateShadowPass.h">
+      <Filter>Graphics\Rendering%3f\Passes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacViewportOperation.h">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacBindBuffer.h">
+      <Filter>Graphics\Rendering%3f\Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacRenderer.h">
+      <Filter>Graphics\Rendering%3f</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacRendererState.h">
+      <Filter>Graphics\Rendering%3f</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Nathan%27s Stuff\tac2cool\src\TacGraphics\TacAcceleration.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacClearDepthOp.h">
+      <Filter>Graphics\Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacClearOp.h">
+      <Filter>Graphics\Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacColorMaskOp.h">
+      <Filter>Graphics\Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacDepthEnableOp.h">
+      <Filter>Graphics\Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacDepthFuncOp.h">
+      <Filter>Graphics\Operations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\TacGraphics\TacOperations\TacDepthMaskOp.h">
+      <Filter>Graphics\Operations</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

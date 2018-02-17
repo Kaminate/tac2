@@ -1,0 +1,17 @@
+syntax: glob
+*.tlog
+*.log
+*.obj
+*.lastbuildstate
+*.idb
+*.pdb
+*.sdf
+*.exe
+*.ilk
+*.user
+*.opensdf
+*.dll
+*.exp
+*.lib
+*.swp
+Tac.zip

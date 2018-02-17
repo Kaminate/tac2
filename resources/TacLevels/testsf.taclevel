@@ -1,0 +1,1139 @@
+game TestGame
+  numEntities 103
+  entity entity0
+    numComponents 3
+    componentType 0
+      position 3.14159 -0.027098 5.02
+      rotation 0.785 0.62 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath .\resources\cube.tacmesh
+      color 0.411765 0.203922 0.615686 1
+    componentType 3
+      velocity 0 0 0
+  entity entity1
+    numComponents 3
+    componentType 0
+      position 5 -5 10
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 2
+      aspect 1.33333
+      near 0.1
+      far 1000
+      fovYradians 1.39626
+      position -1.67 3.54 2.72
+      viewDir 0 0.7 -0.7
+      worldSpaceUp 0 0 1
+    componentType 4
+      direction -0.43979 0.00568805 -0.893833
+      color 0 1 0.47451 1
+  entity entity2
+    numComponents 2
+    componentType 0
+      position -0.32 0 1.47
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath .\resources\cube.tacmesh
+      color 1 1 1 1
+  entity entity3
+    numComponents 3
+    componentType 0
+      position 0 0 14
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity4
+    numComponents 3
+    componentType 0
+      position 0 1 14
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity5
+    numComponents 3
+    componentType 0
+      position 0 2 17
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity6
+    numComponents 3
+    componentType 0
+      position 0 3 12
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity7
+    numComponents 3
+    componentType 0
+      position 0 4 14
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity8
+    numComponents 3
+    componentType 0
+      position 0 5 12
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity9
+    numComponents 3
+    componentType 0
+      position 0 6 15
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity10
+    numComponents 3
+    componentType 0
+      position 0 7 18
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity11
+    numComponents 3
+    componentType 0
+      position 0 8 19
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity12
+    numComponents 3
+    componentType 0
+      position 0 9 11
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity13
+    numComponents 3
+    componentType 0
+      position 1 0 14
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity14
+    numComponents 3
+    componentType 0
+      position 1 1 18
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity15
+    numComponents 3
+    componentType 0
+      position 1 2 17
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity16
+    numComponents 3
+    componentType 0
+      position 1 3 11
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity17
+    numComponents 3
+    componentType 0
+      position 1 4 15
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity18
+    numComponents 3
+    componentType 0
+      position 1 5 16
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity19
+    numComponents 3
+    componentType 0
+      position 1 6 18
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity20
+    numComponents 3
+    componentType 0
+      position 1 7 19
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity21
+    numComponents 3
+    componentType 0
+      position 1 8 11
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity22
+    numComponents 3
+    componentType 0
+      position 1 9 13
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity23
+    numComponents 3
+    componentType 0
+      position 2 0 10
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity24
+    numComponents 3
+    componentType 0
+      position 2 1 18
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity25
+    numComponents 3
+    componentType 0
+      position 2 2 13
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity26
+    numComponents 3
+    componentType 0
+      position 2 3 12
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity27
+    numComponents 3
+    componentType 0
+      position 2 4 15
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity28
+    numComponents 3
+    componentType 0
+      position 2 5 10
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity29
+    numComponents 3
+    componentType 0
+      position 2 6 16
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity30
+    numComponents 3
+    componentType 0
+      position 2 7 12
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity31
+    numComponents 3
+    componentType 0
+      position 2 8 13
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity32
+    numComponents 3
+    componentType 0
+      position 2 9 10
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity33
+    numComponents 3
+    componentType 0
+      position 3 0 17
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity34
+    numComponents 3
+    componentType 0
+      position 3 1 12
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity35
+    numComponents 3
+    componentType 0
+      position 3 2 14
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity36
+    numComponents 3
+    componentType 0
+      position 3 3 11
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity37
+    numComponents 3
+    componentType 0
+      position 3 4 17
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity38
+    numComponents 3
+    componentType 0
+      position 3 5 19
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity39
+    numComponents 3
+    componentType 0
+      position 3 6 18
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity40
+    numComponents 3
+    componentType 0
+      position 3 7 10
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity41
+    numComponents 3
+    componentType 0
+      position 3 8 11
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity42
+    numComponents 3
+    componentType 0
+      position 3 9 19
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity43
+    numComponents 3
+    componentType 0
+      position 4 0 13
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity44
+    numComponents 3
+    componentType 0
+      position 4 1 10
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity45
+    numComponents 3
+    componentType 0
+      position 4 2 10
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity46
+    numComponents 3
+    componentType 0
+      position 4 3 19
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity47
+    numComponents 3
+    componentType 0
+      position 4 4 14
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity48
+    numComponents 3
+    componentType 0
+      position 4 5 18
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity49
+    numComponents 3
+    componentType 0
+      position 4 6 17
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity50
+    numComponents 3
+    componentType 0
+      position 4 7 13
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity51
+    numComponents 3
+    componentType 0
+      position 4 8 17
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity52
+    numComponents 3
+    componentType 0
+      position 4 9 16
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity53
+    numComponents 3
+    componentType 0
+      position 5 0 19
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity54
+    numComponents 3
+    componentType 0
+      position 5 1 13
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity55
+    numComponents 3
+    componentType 0
+      position 5 2 19
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity56
+    numComponents 3
+    componentType 0
+      position 5 3 15
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity57
+    numComponents 3
+    componentType 0
+      position 5 4 17
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity58
+    numComponents 3
+    componentType 0
+      position 5 5 10
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity59
+    numComponents 3
+    componentType 0
+      position 5 6 16
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity60
+    numComponents 3
+    componentType 0
+      position 5 7 18
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity61
+    numComponents 3
+    componentType 0
+      position 5 8 12
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity62
+    numComponents 3
+    componentType 0
+      position 5 9 19
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity63
+    numComponents 3
+    componentType 0
+      position 6 0 11
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity64
+    numComponents 3
+    componentType 0
+      position 6 1 11
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity65
+    numComponents 3
+    componentType 0
+      position 6 2 15
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity66
+    numComponents 3
+    componentType 0
+      position 6 3 16
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity67
+    numComponents 3
+    componentType 0
+      position 6 4 12
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity68
+    numComponents 3
+    componentType 0
+      position 6 5 18
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity69
+    numComponents 3
+    componentType 0
+      position 6 6 19
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity70
+    numComponents 3
+    componentType 0
+      position 6 7 19
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity71
+    numComponents 3
+    componentType 0
+      position 6 8 10
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity72
+    numComponents 3
+    componentType 0
+      position 6 9 18
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity73
+    numComponents 3
+    componentType 0
+      position 7 0 13
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity74
+    numComponents 3
+    componentType 0
+      position 7 1 15
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity75
+    numComponents 3
+    componentType 0
+      position 7 2 17
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity76
+    numComponents 3
+    componentType 0
+      position 7 3 14
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity77
+    numComponents 3
+    componentType 0
+      position 7 4 19
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity78
+    numComponents 3
+    componentType 0
+      position 7 5 15
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity79
+    numComponents 3
+    componentType 0
+      position 7 6 12
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity80
+    numComponents 3
+    componentType 0
+      position 7 7 13
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity81
+    numComponents 3
+    componentType 0
+      position 7 8 16
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity82
+    numComponents 3
+    componentType 0
+      position 7 9 17
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity83
+    numComponents 3
+    componentType 0
+      position 8 0 15
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity84
+    numComponents 3
+    componentType 0
+      position 8 1 15
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity85
+    numComponents 3
+    componentType 0
+      position 8 2 14
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity86
+    numComponents 3
+    componentType 0
+      position 8 3 11
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity87
+    numComponents 3
+    componentType 0
+      position 8 4 15
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity88
+    numComponents 3
+    componentType 0
+      position 8 5 18
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity89
+    numComponents 3
+    componentType 0
+      position 8 6 16
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity90
+    numComponents 3
+    componentType 0
+      position 8 7 12
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity91
+    numComponents 3
+    componentType 0
+      position 8 8 12
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity92
+    numComponents 3
+    componentType 0
+      position 8 9 10
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity93
+    numComponents 3
+    componentType 0
+      position 9 0 19
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity94
+    numComponents 3
+    componentType 0
+      position 9 1 14
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity95
+    numComponents 3
+    componentType 0
+      position 9 2 19
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity96
+    numComponents 3
+    componentType 0
+      position 9 3 12
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity97
+    numComponents 3
+    componentType 0
+      position 9 4 15
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity98
+    numComponents 3
+    componentType 0
+      position 9 5 15
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity99
+    numComponents 3
+    componentType 0
+      position 9 6 14
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity100
+    numComponents 3
+    componentType 0
+      position 9 7 19
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity101
+    numComponents 3
+    componentType 0
+      position 9 8 17
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0
+  entity entity102
+    numComponents 3
+    componentType 0
+      position 9 9 10
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 1
+      meshFilepath resources/cube.tacmesh
+      color 1 1 1 1
+    componentType 3
+      velocity 0 0 0

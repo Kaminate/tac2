@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Editor", "Editor\Editor.vcxproj", "{51E0136C-580D-4E43-A759-523B7E62588B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{59810B52-B9DE-47C8-AC85-8EAC524FDF68} = {59810B52-B9DE-47C8-AC85-8EAC524FDF68}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Library", "Library\Library.vcxproj", "{59810B52-B9DE-47C8-AC85-8EAC524FDF68}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "Game\Game.vcxproj", "{302705C3-A43C-4DDD-81A9-3A12255234FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server", "Server\Server.vcxproj", "{A6741754-EA35-4D29-9B07-27EA29FBC27F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModelConverter", "ModelConverter\ModelConverter.vcxproj", "{9966728B-FEA7-404E-AA26-7E398228DE67}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tacchic", "Tacchic\Tacchic.vcxproj", "{85598A59-7EE9-467A-90B5-7CB799F261A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51E0136C-580D-4E43-A759-523B7E62588B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{51E0136C-580D-4E43-A759-523B7E62588B}.Debug|Win32.Build.0 = Debug|Win32
+		{51E0136C-580D-4E43-A759-523B7E62588B}.Release|Win32.ActiveCfg = Release|Win32
+		{51E0136C-580D-4E43-A759-523B7E62588B}.Release|Win32.Build.0 = Release|Win32
+		{59810B52-B9DE-47C8-AC85-8EAC524FDF68}.Debug|Win32.ActiveCfg = Debug|Win32
+		{59810B52-B9DE-47C8-AC85-8EAC524FDF68}.Debug|Win32.Build.0 = Debug|Win32
+		{59810B52-B9DE-47C8-AC85-8EAC524FDF68}.Release|Win32.ActiveCfg = Release|Win32
+		{59810B52-B9DE-47C8-AC85-8EAC524FDF68}.Release|Win32.Build.0 = Release|Win32
+		{302705C3-A43C-4DDD-81A9-3A12255234FA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{302705C3-A43C-4DDD-81A9-3A12255234FA}.Debug|Win32.Build.0 = Debug|Win32
+		{302705C3-A43C-4DDD-81A9-3A12255234FA}.Release|Win32.ActiveCfg = Release|Win32
+		{302705C3-A43C-4DDD-81A9-3A12255234FA}.Release|Win32.Build.0 = Release|Win32
+		{A6741754-EA35-4D29-9B07-27EA29FBC27F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A6741754-EA35-4D29-9B07-27EA29FBC27F}.Debug|Win32.Build.0 = Debug|Win32
+		{A6741754-EA35-4D29-9B07-27EA29FBC27F}.Release|Win32.ActiveCfg = Release|Win32
+		{A6741754-EA35-4D29-9B07-27EA29FBC27F}.Release|Win32.Build.0 = Release|Win32
+		{9966728B-FEA7-404E-AA26-7E398228DE67}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9966728B-FEA7-404E-AA26-7E398228DE67}.Debug|Win32.Build.0 = Debug|Win32
+		{9966728B-FEA7-404E-AA26-7E398228DE67}.Release|Win32.ActiveCfg = Release|Win32
+		{9966728B-FEA7-404E-AA26-7E398228DE67}.Release|Win32.Build.0 = Release|Win32
+		{85598A59-7EE9-467A-90B5-7CB799F261A1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{85598A59-7EE9-467A-90B5-7CB799F261A1}.Debug|Win32.Build.0 = Debug|Win32
+		{85598A59-7EE9-467A-90B5-7CB799F261A1}.Release|Win32.ActiveCfg = Release|Win32
+		{85598A59-7EE9-467A-90B5-7CB799F261A1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

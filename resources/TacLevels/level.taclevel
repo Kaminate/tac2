@@ -1,0 +1,53 @@
+game TestGame
+  numEntities 5
+  entity entity0
+    numComponents 2
+    componentType 0
+      position 0 -4.26 0
+      rotation 0 0 0
+      scale 16.26 15.06 1
+    componentType 1
+      meshFilepath .\resources\TacMeshes\cube.tacmesh
+      color 0.176471 0.576471 0.498039 1
+  entity entity1
+    numComponents 2
+    componentType 0
+      position 29.9081 15.5948 15.723
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 2
+      aspect 1.3333
+      near 0.01
+      far 1000
+      fovYradians 120
+      position 29.9081 15.5948 15.723
+      viewDir -0.795139 -0.555721 -0.242751
+      worldSpaceUp 0 0 1
+  entity entity2
+    numComponents 2
+    componentType 0
+      position 16.91 -2.69 5.4
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 4
+      direction -0.915442 0.14906 -0.373834
+      color 1 0.854902 1 1
+      castsShadows 1
+  entity entity3
+    numComponents 2
+    componentType 0
+      position 1.38 -5.18 6.23
+      rotation 7.96 6.21 4.2
+      scale 20 20 20
+    componentType 1
+      meshFilepath .\resources\TacMeshes\bunnyflat.tacmesh
+      color 0.698039 0.572549 0.258824 1
+  entity entity4
+    numComponents 2
+    componentType 0
+      position 1.03 -3.43 5.28
+      rotation 9.5 15.67 2.72
+      scale 60 60 60
+    componentType 1
+      meshFilepath .\resources\TacMeshes\horseflat.tacmesh
+      color 0 0.815686 0.258824 1

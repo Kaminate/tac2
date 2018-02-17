@@ -1,0 +1,11 @@
+192.168.93.103
+8000
+
+
+config format:
+1. server ip
+2. server port
+
+note:
+- the client port = serverport + i until success (where i = 1, 2, 3...)
+

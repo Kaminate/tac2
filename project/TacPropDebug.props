@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>../../src/Library/include;../../include;$(IncludePath)</IncludePath>
+    <LibraryPath>../../lib;../../bin/$(Configuration);$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)../bin/$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>Library.lib;glew32d.lib;glfw3debug.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

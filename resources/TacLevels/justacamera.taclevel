@@ -1,0 +1,21 @@
+game TestGame
+  numEntities 2
+  entity entity0
+    numComponents 2
+    componentType 0
+      position 9.1814 -5.97272 7.93205
+      rotation 0 0 0
+      scale 1 1 1
+    componentType 2
+      aspect 1.3333
+      near 0.01
+      far 1000
+      fovYradians 120
+      position 9.1814 -5.97272 7.93205
+      viewDir -0.673364 0.412446 -0.613571
+      worldSpaceUp 0 0 1
+  entity entity1
+    numComponents 1
+    componentType 4
+      direction 0 0 -1
+      color 1 0.854902 1 1
